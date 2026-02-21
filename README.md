@@ -33,6 +33,7 @@ terraform version
 If this shows a version number, it means Terraform is installed correctly.
 
 (terraform registry documentation search)
+
 <img width="634" height="387" alt="Screenshot 2026-02-20 at 10 51 29 PM" src="https://github.com/user-attachments/assets/63762380-0033-45be-8465-55a88281ed93" />
 
 ---
@@ -55,6 +56,7 @@ touch main.tf
 This `main.tf` file is where I write my infrastructure code.
 
 (create terraform folder and initialized)
+
 <img width="635" height="395" alt="Screenshot 2026-02-20 at 10 51 59 PM" src="https://github.com/user-attachments/assets/d9555adc-a241-45be-9d79-2e1ccace81b0" />
 
 ---
@@ -92,6 +94,7 @@ Important:
 The bucket name must be globally unique.
 
 (the code and terminal shows terraform init, plan and apply)
+
 <img width="633" height="393" alt="Screenshot 2026-02-20 at 10 53 40 PM" src="https://github.com/user-attachments/assets/af8505f2-9402-4f5f-aafa-661d40e20bfd" />
 
 ---
@@ -121,6 +124,7 @@ I entered:
 Now Terraform can authenticate with AWS.
 
 (setup aws cli access key from aws iam)
+
 <img width="634" height="392" alt="Screenshot 2026-02-20 at 10 52 34 PM" src="https://github.com/user-attachments/assets/bb1138c9-5148-4be6-8169-03fed4240aa3" />
 
 ---
@@ -164,6 +168,7 @@ Typed `yes` to confirm.
 After that, I checked the AWS S3 console and saw the new bucket created successfully.
 
 (verify the bucket is created in aws s3 bucket after run terraform)
+
 <img width="636" height="378" alt="Screenshot 2026-02-20 at 10 53 07 PM" src="https://github.com/user-attachments/assets/65f6ca60-6cbd-4246-aeea-76f17c0a1fda" />
 
 ---
