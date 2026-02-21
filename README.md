@@ -173,7 +173,7 @@ After that, I checked the AWS S3 console and saw the new bucket created successf
 
 ---
 
-# Secret Mission – Upload File Using Terraform
+# Upload File Using Terraform
 
 I added this block to `main.tf`:
 
